@@ -1,6 +1,7 @@
 # Calculadora
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+It is a basic calculator that performs addition, subtraction, multiplication and division, for this we use Bootstrap v5 for the visual part
 
 ## Development server
 
