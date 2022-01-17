@@ -1,0 +1,16 @@
+<form>
+	<div class="form-group">
+		<label>Operando A</label>
+		<input type="number" class="form-control" placeholder="Escribe el operando A" [(ngModel)]="operatorA"
+			[ngModelOptions]="{standalone: true}">
+	</div>
+	<div class="form-group mt-2 mb-2">
+		<label>Operando B</label>
+		<input type="number" class="form-control" placeholder="Escribe el operando B" [(ngModel)]="operatorB"
+			[ngModelOptions]="{standalone: true}">
+	</div>
+	<button type="submit" class="btn btn-primary m-2" (click)="add()">+</button>
+	<button type="submit" class="btn btn-primary m-2" (click)="subtract()">-</button>
+	<button type="submit" class="btn btn-primary m-2" (click)="multiplication()">x</button>
+	<button type="submit" class="btn btn-primary m-2" (click)="division()">/</button>
+</form>
